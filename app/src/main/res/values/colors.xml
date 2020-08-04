@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="main_blue_color">#38C2F0</color>
+    <color name="load_txt_color_6">#666666</color>
+    <color name="load_txt_color_3">#333333</color>
+    <color name="load_txt_color_9">#999999</color>
+    <color name="line_color">#D8D8D8</color>
+    <color name="black_alpha_50">#80000000</color>
+
+    <color name="gray_divider_line_color">#c8c7cc</color>
+</resources>

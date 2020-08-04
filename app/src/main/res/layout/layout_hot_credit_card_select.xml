@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/gray_divider_line_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_bank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/all_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="全部银行"
+                android:textColor="@color/load_txt_color_3"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/bank_img"
+                android:layout_width="5dp"
+                android:layout_height="3dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/img_small_arrow_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_topic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/all_topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="全部主题"
+                android:textColor="@color/load_txt_color_3"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/topic_img"
+                android:layout_width="5dp"
+                android:layout_height="3dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/img_small_arrow_down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="更多"
+                android:textColor="@color/load_txt_color_3"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/more_img"
+                android:layout_width="5dp"
+                android:layout_height="3dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/img_small_arrow_down" />
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

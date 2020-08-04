@@ -1,0 +1,10 @@
+/build
+.idea/
+.gradle
+local.properties
+mock.properties
+*.iml
+build
+gradle.properties
+.DS_Store
+captures/
